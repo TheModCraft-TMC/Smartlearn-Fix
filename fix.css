@@ -38,3 +38,10 @@ html,body {
     --sml-accent-2-100: black;
     --sml-text-dark-medium: white;
 }
+._smlCourseCardHeader_nrmhi_1 ._statusWrapper_nrmhi_5{
+    background-color: #000000bd;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+
