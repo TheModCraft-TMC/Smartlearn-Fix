@@ -1,11 +1,13 @@
 ._smlDrawer_121t3_1{
     z-index:1;
+    
 }
 ._brandingLogoLink_1ocau_1 {
  background-image: url("https://cdn.discordapp.com/attachments/1245323825952849932/1277666118424592465/mNtklIt.png?ex=66cea78c&is=66cd560c&hm=963c7d53bfb5515e914d6e00c64dc6b1a211060993f3c4a6f31484cef65a1d35&");
  background-size: 100%;
-     width: 200px;
-    height: 60px;
+ background-repeat: round;
+ width: 200px;
+ height: 60px;
 }
 
 ._brandingLogoLink_link_1ocau_7{
