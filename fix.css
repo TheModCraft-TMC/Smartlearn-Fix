@@ -14,11 +14,13 @@
     opacity: 0;
 }
 .body{
-    color:white;!important;
+    color:white;
     background-color: #333333;
 }
 
 :root {
     --sml-background: #333333;
-    --sml-text-dark-high: white; 
+    --sml-text-dark-high: white;
+    --sml-accent-2-100: #333333;
+
 }
