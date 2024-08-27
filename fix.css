@@ -15,9 +15,11 @@
     opacity: 0;
 }
 
-body{
-    color:white;
+html,body {
+    width: 100%;
+    height: 100%
     background-color: #333333;
+    color:white;
 }
 ._header_1q5db_1 {
     color:white;
