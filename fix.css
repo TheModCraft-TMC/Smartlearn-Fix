@@ -42,6 +42,7 @@ html,body {
     background-color: #000000bd;
     border-radius: 20px;
     justify-content: center;
+    min-width: 330px;
 }
 
 
