@@ -13,3 +13,12 @@
 ._brandingLogoLink_link_1ocau_7{
     opacity: 0;
 }
+.body{
+    color:white;!important;
+    background-color: #333333;
+}
+
+:root {
+    --sml-background: #333333;
+    --sml-text-dark-high: white; 
+}
