@@ -10,10 +10,16 @@
  height: 60px;
 }
 
+
 ._brandingLogoLink_link_1ocau_7{
     opacity: 0;
 }
+
 body{
+    color:white;
+    background-color: #333333;
+}
+._header_1q5db_1 {
     color:white;
     background-color: #333333;
 }
