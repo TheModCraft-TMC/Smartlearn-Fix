@@ -36,6 +36,7 @@ html,body {
     border-radius: 20px;
     justify-content: center;
     min-width: 330px;
+    height:30px;
 }
 :root {
     --sml-background: #333333;
