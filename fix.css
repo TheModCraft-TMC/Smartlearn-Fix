@@ -31,18 +31,18 @@ html,body {
 ._smlBaseCardSecondaryActionsMenu_7n2w0_31{
     opacity:40%;
 }
-
-:root {
-    --sml-background: #333333;
-    --sml-text-dark-high: white;
-    --sml-accent-2-100: black;
-    --sml-text-dark-medium: white;
-}
 ._smlCourseCardHeader_nrmhi_1 ._statusWrapper_nrmhi_5{
     background-color: #000000bd;
     border-radius: 20px;
     justify-content: center;
     min-width: 330px;
+}
+:root {
+    --sml-background: #333333;
+    --sml-text-dark-high: white;
+    --sml-accent-2-100: black;
+    --sml-text-dark-medium: white;
+        --sml-accent-1-100: #dc7728;
 }
 
 
