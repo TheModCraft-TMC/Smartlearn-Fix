@@ -42,6 +42,10 @@ html,body {
     height:30px;
     flex-wrap: nowrap;
 }
+._smlCourseEventCard_q5jb3_1{
+    display: flex;
+    justify-content: center;
+}
 ._smlSelectButton_snpgs_22{
     background-color: #2f2f2f;
 }
