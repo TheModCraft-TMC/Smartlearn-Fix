@@ -37,6 +37,7 @@ html,body {
     justify-content: center;
     min-width: 330px;
     height:30px;
+    flex-wrap: nowrap;
 }
 :root {
     --sml-background: #333333;
