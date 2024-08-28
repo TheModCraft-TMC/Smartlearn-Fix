@@ -49,6 +49,9 @@ html,body {
 ._smlSelectButton_snpgs_22{
     background-color: #2f2f2f;
 }
+:hover._smlBaseCard_7n2w0_1{
+    background-color: black;
+}
 :root {
     --sml-background: #333333;
     --sml-text-dark-high: white;
