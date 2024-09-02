@@ -85,6 +85,7 @@ html,body {
     --sml-text-dark-medium: white;
     --sml-accent-1-100: #dc7728; 
     --sml-border-color-1:var(--sml-primary-400);
+    --sml-primary-400: #096dd7;
 
 }
 
