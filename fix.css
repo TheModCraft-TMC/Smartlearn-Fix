@@ -1,3 +1,5 @@
+import: 
+
 ._smlDrawer_121t3_1{
     z-index:1;
     
@@ -92,34 +94,6 @@ html,body {
     --sml-border-color-1:var(--sml-primary-400);
     animation: rainbow 5s linear infinite; 
 
-}
-
-
-@keyframes rainbow {
-  0% {
-    --sml-primary-400: red;
-  }
-  14% {
-    --sml-primary-400: orange;
-  }
-  28% {
-    --sml-primary-400: yellow;
-  }
-  42% {
-    --sml-primary-400: green;
-  }
-  57% {
-    --sml-primary-400: blue;
-  }
-  71% {
-    --sml-primary-400: indigo;
-  }
-  85% {
-    --sml-primary-400: violet;
-  }
-  100% {
-    --sml-primary-400: red; /* Loop back to the start color */
-  }
 }
 
 
