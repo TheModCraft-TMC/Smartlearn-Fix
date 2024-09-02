@@ -64,6 +64,9 @@ html,body {
     background: #000000;!important;
     color:white;
 }
+.ant-btn-text{
+    color:white;
+}
 :root {
     --sml-background: #333333;
     --sml-text-dark-high: white;
