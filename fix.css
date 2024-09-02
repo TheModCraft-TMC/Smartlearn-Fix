@@ -52,6 +52,10 @@ html,body {
 ._smlBaseCard_7n2w0_1:hover{
     background-color: black;
 }
+
+._smlDrawerHeader_121t3_95{
+    background-color:#000000;
+}
 :root {
     --sml-background: #333333;
     --sml-text-dark-high: white;
