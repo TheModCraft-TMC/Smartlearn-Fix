@@ -55,7 +55,7 @@ html,body {
 ._smlDrawerHeader_121t3_95{
     background: var(--sml-accent-2-100)!important;
 }
-.ant-tabs-card{
+.ant-tabs-card>.ant-tabs-nav .ant-tabs-tab, .ant-tabs-card>div>.ant-tabs-nav .ant-tabs-tab{
     background: var(--sml-accent-2-100)!important;
     color:white;
     
