@@ -61,7 +61,7 @@ html,body {
     
 }
 ._smlSyllabusTreeItem_numuw_1{
-    background-color:#000000;
+    background: #000000;!important;
     color:white;
 }
 :root {
