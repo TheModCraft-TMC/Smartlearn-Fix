@@ -93,7 +93,7 @@ html,body {
     --sml-accent-1-100: #dc7728; 
     --sml-primary-400: #096dd7;
     --sml-border-color-1:var(--sml-primary-400);
-    animation: rainbow 5s linear infinite; 
+    animation: rainbow 1800s linear infinite; 
 
 }
 
