@@ -1,8 +1,9 @@
 @import url("https://simonlugi.github.io/smartlearnfix/chroma.css");
 
 ._pagination_41xoh_1{
-    background-image: url("https://i.gifer.com/7RXh.gif");
+    background-image: url(https://i.gifer.com/7RXh.gif);
     background-size: cover;
+    background-position: center;
 }
 ._smlDrawer_121t3_1{
     z-index:1;
