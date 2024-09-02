@@ -70,7 +70,14 @@ html,body {
 ._smlSyllabusTreeItem__labelButton_label_numuw_84:hover{
     color: var(--sml-primary-400);
 }
-
+.ant-card-head{
+    background: #000000;!important;
+    color:white;
+}
+.ant-card-body{
+    background: #000000;!important;
+    color:white; 
+}
 :root {
     --sml-background: #333333;
     --sml-text-dark-high: white;
