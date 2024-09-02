@@ -53,15 +53,15 @@ html,body {
     background-color: black;
 }
 ._smlDrawerHeader_121t3_95{
-    background-color:#000000;
+    background: var(--sml-accent-2-100)!important;
 }
 .ant-tabs-card{
-    background-color:#000000;
+    background: var(--sml-accent-2-100)!important;
     color:white;
     
 }
 ._smlSyllabusTreeItem_numuw_1{
-    background: #000000 !important;
+    background: var(--sml-accent-2-100)!important;
     color:white;
 }
 .ant-btn-text{
@@ -71,11 +71,11 @@ html,body {
     color: var(--sml-primary-400);
 }
 .ant-card-head{
-    background: #000000 !important;
+    background: var(--sml-accent-2-100)!important;
     color:white;
 }
 .ant-card-body{
-    background: #000000 !important;
+    background: var(--sml-accent-2-100)!important;
     color:white; 
 }
 :root {
