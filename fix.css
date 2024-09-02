@@ -67,6 +67,10 @@ html,body {
 .ant-btn-text{
     color:white;
 }
+.ant-btn-text:hover{
+    color: var(--sml-primary-400);
+}
+
 :root {
     --sml-background: #333333;
     --sml-text-dark-high: white;
