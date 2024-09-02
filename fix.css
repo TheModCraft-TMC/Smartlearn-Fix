@@ -60,6 +60,10 @@ html,body {
     color:white;
     
 }
+._smlSyllabusTreeItem_numuw_1{
+    background-color:#000000;
+    color:white;
+}
 :root {
     --sml-background: #333333;
     --sml-text-dark-high: white;
