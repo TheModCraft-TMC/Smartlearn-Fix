@@ -1,0 +1,155 @@
+@keyframes rainbow {
+  0% {
+    --sml-primary-400: red;
+  }
+  2% {
+    --sml-primary-400: #ff3a00; /* Intermediate color */
+  }
+  4% {
+    --sml-primary-400: #ff7400; /* Intermediate color */
+  }
+  6% {
+    --sml-primary-400: #ffad00; /* Intermediate color */
+  }
+  8% {
+    --sml-primary-400: orange;
+  }
+  10% {
+    --sml-primary-400: #ffda00; /* Intermediate color */
+  }
+  12% {
+    --sml-primary-400: #f7ff00; /* Intermediate color */
+  }
+  14% {
+    --sml-primary-400: yellow;
+  }
+  16% {
+    --sml-primary-400: #d2ff00; /* Intermediate color */
+  }
+  18% {
+    --sml-primary-400: #a4ff00; /* Intermediate color */
+  }
+  20% {
+    --sml-primary-400: #76ff00; /* Intermediate color */
+  }
+  22% {
+    --sml-primary-400: #48ff00; /* Intermediate color */
+  }
+  24% {
+    --sml-primary-400: green;
+  }
+  26% {
+    --sml-primary-400: #00ff4b; /* Intermediate color */
+  }
+  28% {
+    --sml-primary-400: #00ff96; /* Intermediate color */
+  }
+  30% {
+    --sml-primary-400: #00ffe1; /* Intermediate color */
+  }
+  32% {
+    --sml-primary-400: #00e7ff; /* Intermediate color */
+  }
+  34% {
+    --sml-primary-400: #00adff; /* Intermediate color */
+  }
+  36% {
+    --sml-primary-400: #0074ff; /* Intermediate color */
+  }
+  38% {
+    --sml-primary-400: #003aff; /* Intermediate color */
+  }
+  40% {
+    --sml-primary-400: blue;
+  }
+  42% {
+    --sml-primary-400: #2400ff; /* Intermediate color */
+  }
+  44% {
+    --sml-primary-400: #4a00ff; /* Intermediate color */
+  }
+  46% {
+    --sml-primary-400: #6f00ff; /* Intermediate color */
+  }
+  48% {
+    --sml-primary-400: #9400ff; /* Intermediate color */
+  }
+  50% {
+    --sml-primary-400: indigo;
+  }
+  52% {
+    --sml-primary-400: #a100ff; /* Intermediate color */
+  }
+  54% {
+    --sml-primary-400: #b600ff; /* Intermediate color */
+  }
+  56% {
+    --sml-primary-400: #cb00ff; /* Intermediate color */
+  }
+  58% {
+    --sml-primary-400: #e000ff; /* Intermediate color */
+  }
+  60% {
+    --sml-primary-400: violet;
+  }
+  62% {
+    --sml-primary-400: #ff00e0; /* Intermediate color */
+  }
+  64% {
+    --sml-primary-400: #ff00cb; /* Intermediate color */
+  }
+  66% {
+    --sml-primary-400: #ff00b6; /* Intermediate color */
+  }
+  68% {
+    --sml-primary-400: #ff00a1; /* Intermediate color */
+  }
+  70% {
+    --sml-primary-400: #ff0094; /* Intermediate color */
+  }
+  72% {
+    --sml-primary-400: #ff006f; /* Intermediate color */
+  }
+  74% {
+    --sml-primary-400: #ff004a; /* Intermediate color */
+  }
+  76% {
+    --sml-primary-400: #ff0024; /* Intermediate color */
+  }
+  78% {
+    --sml-primary-400: red; /* Intermediate color */
+  }
+  80% {
+    --sml-primary-400: #ff3a00; /* Intermediate color */
+  }
+  82% {
+    --sml-primary-400: #ff7400; /* Intermediate color */
+  }
+  84% {
+    --sml-primary-400: #ffad00; /* Intermediate color */
+  }
+  86% {
+    --sml-primary-400: orange;
+  }
+  88% {
+    --sml-primary-400: #ffda00; /* Intermediate color */
+  }
+  90% {
+    --sml-primary-400: #f7ff00; /* Intermediate color */
+  }
+  92% {
+    --sml-primary-400: yellow;
+  }
+  94% {
+    --sml-primary-400: #d2ff00; /* Intermediate color */
+  }
+  96% {
+    --sml-primary-400: #a4ff00; /* Intermediate color */
+  }
+  98% {
+    --sml-primary-400: #76ff00; /* Intermediate color */
+  }
+  100% {
+    --sml-primary-400: red; /* Loop back to the start color */
+  }
+}
