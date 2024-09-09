@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
 ._smlCourseEventCard_q5jb3_1:hover{
     background: var(--sml-accent-2-100)!important;
 }
-._smlSelectOptions_snpgs_78{
+._smlSelectOptions_snpgs_78, ._smlButtonTertiary_17ytc_54{
      background: var(--sml-accent-2-100)!important;
 }
 :root {
