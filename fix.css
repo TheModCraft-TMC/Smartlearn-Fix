@@ -79,7 +79,7 @@ html,body {
     color:white;
 }
 .ant-btn{
-    color:var(--sml-accent-2-100)!important;
+    color:var(--sml-primary-400)!important;
 }
 ._smlSyllabusTreeItem__labelButton_label_numuw_84:hover{
     color: var(--sml-primary-400);
