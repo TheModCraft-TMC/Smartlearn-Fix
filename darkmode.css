@@ -1,4 +1,5 @@
-@import url("https://themodcraft-tmc.github.io/Smartlearn-Fix/chroma.css");
+@import url("https://themodcraft-tmc.github.io/Smartlearn-Fix/chroma.css"); /* Coment this out for non chrmoa */
+@import url("https://themodcraft-tmc.github.io/Smartlearn-Fix/fix.css");
 
 html,body {
     width: 100%;
