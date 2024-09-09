@@ -111,6 +111,9 @@ h1, h2, h3, h4, h5, h6 {
 ._smlSelectOptions_snpgs_78, ._smlButtonTertiary_17ytc_54{
      background: var(--sml-accent-2-100)!important;
 }
+.answer-text-wrapper{
+    color:black;
+}
 :root {
     --sml-background: #333333;
     --sml-text-dark-high: white;
