@@ -1,1 +1,26 @@
-
+@import url("https://themodcraft-tmc.github.io/Smartlearn-Fix/darkmode.css");
+@import url("https://themodcraft-tmc.github.io/Smartlearn-Fix/fix.css");
+._pagination_41xoh_1{
+    background-image: url(https://i.gifer.com/7RXh.gif);
+    background-size: cover;
+    background-position: center;
+}
+._nav_next_41xoh_57{
+    border-left: none;
+}
+._nav_prev_41xoh_45{
+    border-right: none; 
+}
+._smlDrawer_121t3_1{
+    z-index:1;
+}
+._brandingLogoLink_1ocau_1 {
+ background-image: url("smartPain.png");
+ background-size: 100%;
+ background-repeat: none;
+ width: 200px;
+ height: 60px;
+}
+._brandingLogoLink_link_1ocau_7{
+    opacity: 0;
+}
