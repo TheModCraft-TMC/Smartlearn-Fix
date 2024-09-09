@@ -105,6 +105,9 @@ h1, h2, h3, h4, h5, h6 {
 ._itemGrid_xwnoh_1{
     grid-template-columns:repeat(auto-fill,minmax(390px,1fr));
 }
+.._smlCourseEventCard_q5jb3_1:hover{
+    background: var(--sml-accent-2-100)!important;
+}
 :root {
     --sml-background: #333333;
     --sml-text-dark-high: white;
