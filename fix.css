@@ -71,7 +71,7 @@ html,body {
     color:white;
     
 }
-._smlSyllabusTreeItem_numuw_1{
+._smlSyllabusTreeItem_numuw_1,.ant-collapse-content{
     background: var(--sml-accent-2-100)!important;
     color:white;
 }
