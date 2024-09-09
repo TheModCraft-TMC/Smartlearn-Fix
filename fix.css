@@ -78,7 +78,7 @@ html,body {
 .ant-btn-text{
     color:white;
 }
-.ant-btn{
+.ant-btn:hover{
     color:var(--sml-primary-400)!important;
 }
 ._smlSyllabusTreeItem__labelButton_label_numuw_84:hover{
