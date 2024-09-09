@@ -102,6 +102,9 @@ html,body {
 h1, h2, h3, h4, h5, h6 {
     color:var(--sml-primary-400);
 }
+._itemGrid_xwnoh_1{
+    grid-template-columns:repeat(auto-fill,minmax(390px,1fr));
+}
 :root {
     --sml-background: #333333;
     --sml-text-dark-high: white;
