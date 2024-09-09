@@ -152,6 +152,10 @@ h1, h2, h3, h4, h5, h6 {
     overflow: hidden;
     background-color: #37364b!important
 }
-.ant-radio-wrapper {
+.ant-checkbox-wrapper {
+    color: #ffffff;
+}
+
+.ant-checkbox-wrapper {
     color: #ffffff;
 }
