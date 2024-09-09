@@ -89,11 +89,13 @@ html,body {
     background: var(--sml-accent-2-100)!important;
     color:white; 
 }
-..ant-collapse{
+.ant-collapse{
     background: var(--sml-accent-2-100)!important;
     color:white;   
 }
-
+._smlSyllabusTreeItem__expandColapseButton_numuw_63{
+    background: var(--sml-accent-2-100)!important;
+}
 h1, h2, h3, h4, h5, h6 {
     color:var(--sml-primary-400);
 }
