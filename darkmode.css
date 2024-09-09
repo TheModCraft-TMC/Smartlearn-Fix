@@ -63,7 +63,7 @@ html,body {
     background: var(--sml-accent-2-100)!important;
     color:white;
 }
-.ant-card-body{
+.ant-card-body,.ant-btn{
     background: var(--sml-accent-2-100)!important;
     color:white; 
 }
