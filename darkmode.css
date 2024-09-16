@@ -54,7 +54,7 @@ html,body {
     color:white;
 }
 .ant-btn-link{
-    background:transparent;
+    background:transparent !important;
 }
 .ant-btn:hover{
     color:var(--sml-primary-400)!important;
