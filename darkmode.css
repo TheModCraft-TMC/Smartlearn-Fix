@@ -7,6 +7,15 @@ html,body {
     background-color: #333333;
     color:white;
 }
+._smlPageHeader_4zxql_1{
+    box-shadow: 0px 1px 11px 0px var(--sml-primary-400);
+}
+._smlDrawer_121t3_1{
+    box-shadow: 0px 1px 11px 0px var(--sml-primary-400);  
+}
+._smlDrawerBody_121t3_126{
+    box-shadow: 0px 1px 11px 0px var(--sml-primary-400);    
+}
 ._header_1q5db_1 {
     color:white;
     background-color: #333333;
