@@ -24,52 +24,47 @@ function toggleSidebar() {
 
 // Call the toggle function to test
 toggleSidebar();
-
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('DOM fully loaded, running the script');
-
     function darkenColor(color, factor) {
-        console.log('Original color:', color); // Log the original color
-        
-        // Extract RGB values from the color string
-        const rgb = color.match(/\d+/g).map(Number);
-        console.log('Extracted RGB:', rgb); // Log the RGB values
-        
+        // Convert color to RGB format
+        let rgb = color.match(/^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i);
+        if (!rgb) {
+            rgb = color.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
+        }
+        if (!rgb) {
+            console.error('Invalid color format:', color);
+            return color;
+        }
+
+        // Extract RGB values
+        const r = parseInt(rgb[1], 16) || parseInt(rgb[1]);
+        const g = parseInt(rgb[2], 16) || parseInt(rgb[2]);
+        const b = parseInt(rgb[3], 16) || parseInt(rgb[3]);
+
         // Darken each channel by reducing its value by a factor
-        const darkenedRgb = rgb.map(value => Math.max(Math.floor(value / factor), 0));
-        console.log('Darkened RGB:', darkenedRgb); // Log the darkened RGB values
-        
+        const darkenedRgb = [
+            Math.max(Math.floor(r / factor), 0),
+            Math.max(Math.floor(g / factor), 0),
+            Math.max(Math.floor(b / factor), 0)
+        ];
+
         // Return the new darkened color as rgb
         return `rgb(${darkenedRgb.join(", ")})`;
     }
 
-    const elements = document.querySelectorAll('.export-highlight');
-    
-    // Log how many elements were found with the class .export-highlight
-    console.log('Number of elements found:', elements.length);
-
-    elements.forEach((element, index) => {
-        // Log the element we're currently processing
-        console.log(`Processing element ${index + 1}`);
-
+    document.querySelectorAll('.export-highlight').forEach((element) => {
         // Get the computed styles for the element
         const computedStyle = window.getComputedStyle(element);
 
         // Extract the left border color
         const borderColor = computedStyle.getPropertyValue('border-left-color');
-        console.log('Border color:', borderColor); // Log the extracted border color
 
         if (borderColor) {
-            // Darken the border color 4x
-            const darkenedColor = darkenColor(borderColor, 4);
-
-            // Log the darkened color before setting it as background
-            console.log('Setting darkened color as background:', darkenedColor);
+            // Darken the border color 2x (adjust factor value as needed)
+            const darkenedColor = darkenColor(borderColor, 2);
 
             // Set the darkened color as the background color with !important
             element.style.setProperty('background-color', darkenedColor, 'important');
-        } else {
-            console.log('No border-left-color found for this element.');
         }
     });
 });
