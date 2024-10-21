@@ -38,18 +38,23 @@ document.addEventListener('DOMContentLoaded', function() {
     toggleSidebarButton.addEventListener('click', toggleSidebar);
     console.log('Toggle sidebar button event listener added.');
 
+    // Function to darken a color
     function darkenColor(color, factor) {
-        // Convert color to RGB format
+        // Check if the color is in hex format
         let rgb = color.match(/^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i);
+        
+        // If not in hex, check if it's in rgb format
         if (!rgb) {
             rgb = color.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
         }
+        
+        // If still invalid, log an error and return a default color (red)
         if (!rgb) {
             console.error('Invalid color format:', color);
-            return color;
+            return 'rgb(255, 0, 0)'; // Fallback to red
         }
 
-        // Extract RGB values
+        // Extract RGB values from the matched groups
         const r = parseInt(rgb[1], 16) || parseInt(rgb[1]);
         const g = parseInt(rgb[2], 16) || parseInt(rgb[2]);
         const b = parseInt(rgb[3], 16) || parseInt(rgb[3]);
@@ -61,12 +66,11 @@ document.addEventListener('DOMContentLoaded', function() {
             Math.max(Math.floor(b / factor), 0)
         ];
 
-        // Return the new darkened color as rgb
-        const darkenedColor = `rgb(${darkenedRgb.join(", ")})`;
-        console.log(`Darkened color: ${darkenedColor}`);
-        return darkenedColor;
+        // Return the new darkened color as an RGB string
+        return `rgb(${darkenedRgb.join(", ")})`;
     }
 
+    // Apply darkening to elements with the class 'export-highlight'
     document.querySelectorAll('.export-highlight').forEach((element) => {
         // Get the computed styles for the element
         const computedStyle = window.getComputedStyle(element);
@@ -75,15 +79,11 @@ document.addEventListener('DOMContentLoaded', function() {
         const borderColor = computedStyle.getPropertyValue('border-left-color');
         console.log(`Border color for element: ${borderColor}`);
 
-        if (borderColor) {
-            // Darken the border color 2x (adjust factor value as needed)
-            const darkenedColor = darkenColor(borderColor, 2);
-
-            // Set the darkened color as the background color with !important
-            element.style.setProperty('background-color', darkenedColor, 'important');
-            console.log(`Background color set to: ${darkenedColor}`);
-        } else {
-            console.log('No border color found for element.');
-        }
+        // Darken the border color, using red as a fallback if color grabbing fails
+        const darkenedColor = darkenColor(borderColor, 2);
+        
+        // Set the darkened color as the background color with !important
+        element.style.setProperty('background-color', darkenedColor, 'important');
+        console.log(`Background color set to: ${darkenedColor}`);
     });
 });
