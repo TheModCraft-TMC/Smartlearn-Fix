@@ -25,27 +25,31 @@ function toggleSidebar() {
 // Call the toggle function to test
 toggleSidebar();
 
-function darkenColor(color, factor) {
-    // Extract RGB values from the color string
-    const rgb = color.match(/\d+/g).map(Number);
-    
-    // Darken each channel by reducing its value by a factor
-    const darkenedRgb = rgb.map(value => Math.max(Math.floor(value / factor), 0));
-    
-    // Return the new darkened color as rgb
-    return `rgb(${darkenedRgb.join(", ")})`;
-}
+document.addEventListener('DOMContentLoaded', function() {
+    function darkenColor(color, factor) {
+        // Extract RGB values from the color string
+        const rgb = color.match(/\d+/g).map(Number);
 
-document.querySelectorAll('.export-highlight').forEach((element) => {
-    // Get the computed styles for the element
-    const computedStyle = window.getComputedStyle(element);
+        // Darken each channel by reducing its value by a factor
+        const darkenedRgb = rgb.map(value => Math.max(Math.floor(value / factor), 0));
 
-    // Extract the left border color
-    const borderColor = computedStyle.getPropertyValue('border-left-color');
+        // Return the new darkened color as rgb
+        return `rgb(${darkenedRgb.join(", ")})`;
+    }
 
-    // Darken the border color 4x
-    const darkenedColor = darkenColor(borderColor, 4);
+    document.querySelectorAll('.export-highlight').forEach((element) => {
+        // Get the computed styles for the element
+        const computedStyle = window.getComputedStyle(element);
 
-    // Set the darkened color as the background color with !important
-    element.style.setProperty('background-color', darkenedColor, 'important');
+        // Extract the left border color
+        const borderColor = computedStyle.getPropertyValue('border-left-color');
+
+        if (borderColor) {
+            // Darken the border color 4x
+            const darkenedColor = darkenColor(borderColor, 4);
+
+            // Set the darkened color as the background color with !important
+            element.style.setProperty('background-color', darkenedColor, 'important');
+        }
+    });
 });
