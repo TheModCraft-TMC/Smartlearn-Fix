@@ -1,10 +1,6 @@
+// JavaScript Code
 // Get the sidebar element
 const sidebar = document.querySelector('[data-drawer-type="secondary"]');
-
-// Check the initial state of the sidebar based on data-sidebar-open attribute
-if (sidebar.getAttribute('data-sidebar-open') === 'false') {
-    sidebar.classList.add('hide'); // Hide sidebar initially if data-sidebar-open is false
-}
 
 // Function to toggle based on data-sidebar-open attribute
 function toggleSidebar() {
@@ -22,9 +18,15 @@ function toggleSidebar() {
     }
 }
 
-// Call the toggle function to test
-toggleSidebar();
+// Check the initial state of the sidebar based on data-sidebar-open attribute
 document.addEventListener('DOMContentLoaded', function() {
+    if (sidebar.getAttribute('data-sidebar-open') === 'false') {
+        sidebar.classList.add('hide'); // Hide sidebar initially if data-sidebar-open is false
+    }
+
+    const toggleSidebarButton = document.getElementById('toggle-sidebar-button');
+    toggleSidebarButton.addEventListener('click', toggleSidebar);
+
     function darkenColor(color, factor) {
         // Convert color to RGB format
         let rgb = color.match(/^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i);
