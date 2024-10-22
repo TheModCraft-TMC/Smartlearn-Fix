@@ -10,11 +10,17 @@ body{
 .skin-blue .main-header .logo {
 background-color: #000000;}
 }
+.skin-blue .main-header .logo:hover {
+background-color: #15ff0096;}
+}
 .row{
     background-color:black
 }
 .fc-unthemed td.fc-today {
     background: #15ff0096;
+}
+.skin-blue .sidebar-menu>li.active>a {
+    border-left-color: #1cff00;
 }
 .box{
     background-color:black;
