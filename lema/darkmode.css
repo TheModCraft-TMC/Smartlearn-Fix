@@ -13,11 +13,12 @@ background-color: #000000;}
 .row{
     background-color:black
 }
-
+.fc-unthemed td.fc-today {
+    background: #15ff0096;
+}
 .box{
     background-color:black;
 }
-
 .text-center{
     background-color:black;
 }
